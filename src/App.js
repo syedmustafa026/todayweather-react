@@ -8,6 +8,8 @@ import Card from './components/card';
 function Apps() {
   return (
     <div >
+    
+    
       
       <Card />
     </div>
