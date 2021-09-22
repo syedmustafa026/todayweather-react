@@ -1,23 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
 body{
   background-image: url(https://thumbs.gfycat.com/FavorableFlamboyantFugu-size_restricted.gif);
 background-repeat: no-repeat;
 background-size: 1500px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 
 }
 
 .card{
-  background-image: radial-gradient(#6c96b3,#366380);
+  background-image: radial-gradient(#edf8ff,#adc6d6);
  margin:  auto ;
+ box-shadow: 2px 2px 6px #adc6d6;
  display: flex;
  flex-wrap: wrap;
  margin-top: 3%;
   width: 700px;
   height: 500px;
 }
-.row{
-  height: 400px;
-  
-}
+
 .temp{
   display: inline-flex;
+}
+.main{
+  text-align: center;
+font-weight: bold;
+text-transform: capitalize;
+-webkit-text-stroke: 1px rgb(255, 255, 255);
+-webkit-text-fill-color: rgb(0, 0, 0);
+font-size: 62px;
+}
+.contry{
+  font-size: 16px;
+  margin-bottom: 50px;position: absolute;
+}
+.sub{
+  display: flex;
+  justify-content: space-between;
+ margin: 2% 7%;
+ flex-wrap: wrap;
+}
+.temp{
+  font-size: 68px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px rgb(168, 193, 240);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+}
+.heading{
+  margin-top: 15px;
+  font-size: 44px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.temp-details{
+  text-align: center;
+  font-size: 24px;
+}
+
+.butn{
+  border: none;
+  background-color: #adc6d6;
+  color: black;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 150px;
+  height: 60px;
+}
+.sub2{
+  display: flex;
+  justify-content: space-around;
+ margin: 0% 7% 2% 7%;
+ flex-wrap: wrap;
+}
+.weather{
+  font-style: italic;
+  text-transform: capitalize;
+
+}
+.bold{
+  font-weight: bold;
+}
+#main{
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  height: 100vh;
 }
